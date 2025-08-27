@@ -24,4 +24,13 @@ p {
 	gap: 40px;
 	padding-top: 0px;
 }
-	
+
+#Portfolio{
+	display:flex;
+	flex-direction:row;
+}
+
+#Portfolio img{
+	width: 200px;
+	height: 150px;
+}
