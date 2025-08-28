@@ -37,3 +37,11 @@ p {
 	max-width: 70%;
 	height: auto; 
 }
+
+.GameIntro video{
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
