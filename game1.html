@@ -40,6 +40,21 @@
 		<p>This project was created as part of a school assignment and marks the first game I developed on my own.
 			It was fully built using Stencyl, giving me the opportunity to explore the fundamentals of game development.</p>
 	</div>
+
+	<div class="AboutGame">
+		<H2>Challenging</H2>
+		<H4>1. Spike Speed Boost Conflict</H4>
+		<p>In the Pong game, giving the ball a speed boost when hitting a spike is a common gameplay mechanic.</p>
+		<p>During development, although I implemented the functionality for the ball to speed up upon hitting a spike, 
+			testing the game revealed that the feature did not work as expected.</p>
+		<H4>Solution</H4>
+		<p> After exploring Stencyl further, I realized that to trigger a continuous event.</p>
+		<p> Such as </p>
+		<p> “the ball hits a spike → spike disappears → ball speeds up”</p>
+		<p>	All related logic must be handled within the same actor. </p>
+		<p>	In my original code, I coded the spike to disappear when hitting by ball, and separately coded the ball to speed up when hitting a spike.
+			This caused a conflict, as Stencyl could not determine which action to execute first: The spike disappearing or The ball speeding up.</p>
+	</div>
 	
 
 </body>
