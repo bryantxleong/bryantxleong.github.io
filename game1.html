@@ -57,16 +57,8 @@
 			This caused a conflict, as Stencyl could not determine which action to execute first: The spike disappearing or The ball speeding up.</p>
 	</div>
 
-	<div class="AboutGame2">
-		<H4>2. Fake Spike Horizontal Speed Bug</H4>
-		<p> During the testing phase, I discovered sometimes that when the ball collided with a fake spike, its horizontal speed would instantly drop to zero.</p>
-		<p> As a result, the ball only moved up and down in place, which heavily impacted the gameplay experience. </p>
+	<div class="CodeShowing">
 		
-		<H4>Solution</H4>
-		<p>To resolve this issue, I introduced a counter system.</p>
-		<p>When the ball’s horizontal speed became zero, I set a condition where after bouncing off the top or bottom walls twice, 
-			the ball would be assigned a random horizontal speed.</p>
-		<p>This prevented the ball from getting stuck in a vertical-only movement pattern, keeping the gameplay dynamic.</p>
 		
 	</div>
 
