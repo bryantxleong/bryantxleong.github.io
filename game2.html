@@ -38,6 +38,30 @@
 		\giving me experience in building game mechanics and level design.</p>
 	</div>
 
+	<div class="Issues">
+		<div>
+			<img src="Shoot'EmUpPlayerBehaviors.png" alt="Solution2GameCode">
+		</div>
+		<div>
+			<H2>Challenging</H2>
+			<H4>Character Upgrade Challenge</H4>
+			<p>One of the most difficult challenges during development was 
+				figuring out how to make players clearly distinguish which character they were controlling.</p>
+			<p>Another challenge was showing whether the character had been powered up, 
+				along with the corresponding visual changes for each state.</p>
+			
+			<H4>Solution</H4>
+			<p>Instead of making the original character disappear and creating a brand-new one, 
+				I decided to use the same character actor and simply switch to a new animation. </p>
+			<p>This approach kept the gameplay smooth while still making the power-up state visually clear to the players.</p>
+			<p>To implement this, I created two separate booleans corresponding to the two different power-up states. </p>
+			<p>When the character collected Power-up A, the normal attack mode would be disabled and replaced with the power-up attack. </p>
+			<p>Once the power-up duration ended, the character reverted back to the normal state while disabling the power-up attack.</p>
+			<p>The same logic was applied to Power-up B as well. </p>
+		
+		</div>
+	</div>
+
 </body>
 
 </html>
