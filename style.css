@@ -87,7 +87,7 @@ p {
 .SocialIcon a {
 	font-size: 24px;
 	margin-right: 12px;
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #AAA;
 	transition: color 0.3s;
 }
@@ -95,8 +95,10 @@ p {
 .SocialIcon a:visited,
 .SocialIcon a:active {
 	color: #AAA;
+	text-decoration: none !important;
 }
 
 .SocialIcon a:hover {
 	color: #333;
+	text-decoration: none !important;
 }
