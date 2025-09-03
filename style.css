@@ -84,7 +84,7 @@ p {
 	overflow: hidden;
 }
 
-.SocialIcon{
+.SocialIcon a {
 	font-size: 24px;
 	margin-right: 12px;
 	text-decoration: none;
