@@ -83,3 +83,20 @@ p {
 	height: 550px;
 	overflow: hidden;
 }
+
+.SocialIcon{
+	font-size: 24px;
+	margin-right: 12px;
+	text-decoration: none;
+	color: #AAA;
+	transition: color 0.3s;
+}
+
+.SocialIcon a:visited,
+.SocialIcon a:active {
+	color: #AAA;
+}
+
+.SocialIcon a:hover {
+	color: #333;
+}
