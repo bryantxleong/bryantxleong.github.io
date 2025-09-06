@@ -102,3 +102,7 @@ p {
 	color: #333;
 	text-decoration: none !important;
 }
+
+.fullCode{
+	display: flex;
+}
