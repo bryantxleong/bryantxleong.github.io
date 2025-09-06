@@ -74,27 +74,38 @@
 
 		<div class="Issues">
 			<div class="gameCodeImg">
-				<a href="Image/ShootEmUpPlayerBehaviors.png" target="_blank">
-					<img src="Image/ShootEmUpPlayerBehaviors.png" alt="Solution2GameCode">
+				<a href="Image/Game3/Rider Kick.png" target="_blank">
+					<img src="Image/Game3/Rider Kick.png" alt="Solution3GameCode">
 				</a>
 			</div>
 
 			<div>
 				<H2>Challenging</H2>
-				<H4>Character Upgrade Challenge</H4>
-				<p>One of the most difficult challenges during development was 
-					figuring out how to make players clearly distinguish which character they were controlling.</p>
-				<p>Another challenge was showing whether the character had been powered up, 
-					along with the corresponding visual changes for each state.</p>
+				<p>While implementing the special attack “Rider Kick” for Kamen Rider, I encountered several technical issues.
+				</p>
+				
+				<H4>1. Attack State Not Registering</H4>
+				<p>The Rider Kick could not kill the enemy after hitting them. 
+					In cases where it missed, the character became stuck in the Rider Kick state, preventing the game from continuing.
+				</p>
 				
 				<H4>Solution</H4>
-				<p>Instead of making the original character disappear and creating a brand-new one, 
-					I decided to use the same character actor and simply switch to a new animation. </p>
-				<p>This approach kept the gameplay smooth while still making the power-up state visually clear to the players.</p>
-				<p>To implement this, I created two separate booleans corresponding to the two different power-up states. </p>
-				<p>When the character collected Power-up A, the normal attack mode would be disabled and replaced with the power-up attack. </p>
-				<p>Once the power-up duration ended, the character reverted back to the normal state while disabling the power-up attack.</p>
-				<p>The same logic was applied to Power-up B as well. </p>
+				<p>This happened because pressing the attack button switched the animation but did not actually enter the attack state. 
+					I added a condition so that when the animation switches, the game also recognizes the character as being in an attack state. 
+					Once the attack succeeds or fails, the state is cleared properly.</p>
+
+				<H4>2. Endless Attack Spam</H4>
+				<p>When the player pressed the attack button repeatedly, the character would continuously chase the enemy. 
+					This was because the attack condition kept toggling without interruption, 
+					and the specific speed assigned during the attack was refreshed continuously.
+				</p>
+
+				<H4>Solution</H4>
+				<p>I added another condition to address this issue. To prevent players from spamming the attack button, 
+					I applied a "Do After" method: 
+				</p>
+				<p>Once the attack button is pressed, it becomes inactive for one second before it can be used again.
+				</p>
 			</div>
 		</div>
 	</div>
