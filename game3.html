@@ -10,45 +10,94 @@
 
 
 <body>
-	<div id="TopImage">
-			<div class="SocialIcon">
-				<a href="https://www.facebook.com/bryant.leong.56/" target="_blank">
-  					<i class="fab fa-facebook" style="font-size:24px"></i>
+	<div id="wrapper">
+		<div id="TopImage">
+				<div class="SocialIcon">
+					<a href="https://www.facebook.com/bryant.leong.56/" target="_blank">
+	  					<i class="fab fa-facebook" style="font-size:24px"></i>
+					</a>
+					<a href="https://www.instagram.com/bryantxfung9/" target="_blank">
+						<i class="fab fa-instagram" style="font-size:24px"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/bryant-fung-a54a88374/" target="_blank">
+						<i class="fab fa-linkedin" style="font-size:24px"></i>
+					</a>
+				</div>
+		</div>
+		
+		<div id="TopIndicator">
+			<h1> <a href="https://bryantxleong.github.io/"> Home </a> </h1>
+			<h1> <a href="https://bryantxleong.github.io/#Portfolio">Portfolio </a></h1>
+			<h1> <a href="https://bryantxleong.github.io/#footer">About Me </a></h1>
+		</div>
+	
+		<div class="GameDescription">
+			<div class="GameIntro">
+				<video	class="looping-video"
+						autoplay
+						loop
+						muted
+						playsinline
+						preload="metadata">
+						<source src="Image/Video/Game3Gameplay.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div class="CodeShowing" style="height:350px; width:350px; overflow:hidden">
+			<H2>Game Mechanics Code</H2>
+				<div>
+				<a href="Image/Game2/Game2 SpawingSystem.png" target="_blank">
+					<img src="Image/Game2/Game2 SpawingSystem.png" alt="Game2Code">
 				</a>
-				<a href="https://www.instagram.com/bryantxfung9/" target="_blank">
-					<i class="fab fa-instagram" style="font-size:24px"></i>
+				</div>
+				<div>
+				<a href="Image/Game2/Game2 EndlessSystem.png" target="_blank">
+					<img src="Image/Game2/Game2 EndlessSystem.png" alt="Game2.2Code">
 				</a>
-				<a href="https://www.linkedin.com/in/bryant-fung-a54a88374/" target="_blank">
-					<i class="fab fa-linkedin" style="font-size:24px"></i>
+				</div>
+			</div>
+
+			<div>
+				<H3>Game Intro</H3>
+					<p>“Kamen Rider Faiz” is a Platformer game featuring three levels.</p>
+					<p>Players can perform close-range attacks, long-range attacks, and the signature Rider Kick.</p>
+					<p>In the third level, a boss appears, and the game concludes once it is defeated.</p>
+					<p>This project was created as my final assignment for the first semester, 
+						which required all game assets including backgrounds, 
+						characters and animations to be created from scratch in Photoshop.
+					</p>
+					<p>The game was fully developed using Stencyl, giving me the opportunity to practice level design, 
+						platformer mechanics, basic pixel art, and the fundamentals of game development.
+					</p>
+			</div>
+		</div>
+
+		<div class="Issues">
+			<div class="gameCodeImg">
+				<a href="Image/ShootEmUpPlayerBehaviors.png" target="_blank">
+					<img src="Image/ShootEmUpPlayerBehaviors.png" alt="Solution2GameCode">
 				</a>
 			</div>
-	</div>
-	
-	<div id="TopIndicator">
-		<h1> <a href="https://bryantxleong.github.io/"> Home </a> </h1>
-		<h1> Portfolio </h1>
-		<h1> About Me </h1>
-	</div>
-	
-	<div class="GameDescription">
-		<div class="GameIntro">
-			<video	
-					class="looping-video"
-					autoplay
-					loop
-					muted
-					playsinline
-					preload="metadata">
-					<source src="Image/Video/Game3Gameplay.mp4" type="video/mp4">
-			</video>
+
+			<div>
+				<H2>Challenging</H2>
+				<H4>Character Upgrade Challenge</H4>
+				<p>One of the most difficult challenges during development was 
+					figuring out how to make players clearly distinguish which character they were controlling.</p>
+				<p>Another challenge was showing whether the character had been powered up, 
+					along with the corresponding visual changes for each state.</p>
+				
+				<H4>Solution</H4>
+				<p>Instead of making the original character disappear and creating a brand-new one, 
+					I decided to use the same character actor and simply switch to a new animation. </p>
+				<p>This approach kept the gameplay smooth while still making the power-up state visually clear to the players.</p>
+				<p>To implement this, I created two separate booleans corresponding to the two different power-up states. </p>
+				<p>When the character collected Power-up A, the normal attack mode would be disabled and replaced with the power-up attack. </p>
+				<p>Once the power-up duration ended, the character reverted back to the normal state while disabling the power-up attack.</p>
+				<p>The same logic was applied to Power-up B as well. </p>
+			</div>
 		</div>
-		<p>“Kamen Rider Faiz” is a Platformer game featuring three levels.</p>
-		<p>In the third level, players encounter a boss, and the game ends once the boss is defeated.</p>
-
-		<p>This project was created as my final assignment for the first semester.
-		It was fully developed using Stencyl, allowing me to practice level design, platformer mechanics, and basic game development.</p>
 	</div>
-
 </body>
 
 </html>
