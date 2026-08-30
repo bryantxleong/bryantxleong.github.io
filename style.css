@@ -64,6 +64,10 @@ p {
 	margin: 150px 50px;
 }
 
+.Issues img {
+	margin-top: 10px;
+}
+
 .Issues h1,
 .Issues h2,
 .Issues h3,
