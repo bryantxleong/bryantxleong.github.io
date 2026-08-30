@@ -54,6 +54,7 @@ p {
 	justify-content: space-between;
 	gap: 20px;
 	width: 70%;
+	margin-bottom: 30px;
 }
 
 .Row1 img {
