@@ -34,6 +34,7 @@ p {
 
 .Row2{
 	display:flex;
+	justify-content: flex-start;
 	gap: 20px;
 	width: 70%;
 	margin-bottom: 30px;
@@ -51,7 +52,7 @@ p {
 
 .Row1{
 	display:flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	gap: 20px;
 	width: 70%;
 	margin-bottom: 30px;
