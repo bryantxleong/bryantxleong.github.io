@@ -68,6 +68,10 @@ p {
 	margin-top: 45px;
 }
 
+.Issues h4 {
+	margin-bottom: 0;
+}
+
 .Issues h1,
 .Issues h2,
 .Issues h3,
