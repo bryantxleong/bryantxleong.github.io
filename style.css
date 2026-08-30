@@ -32,39 +32,24 @@ p {
 	margin: 0px 50px;
 }
 
-.Row2{
-	display:flex;
+.Row1,
+.Row2 {
+	display: flex;
 	justify-content: flex-start;
 	gap: 20px;
 	width: 70%;
 	margin-bottom: 30px;
 }
 
+.Row1 img,
 .Row2 img {
 	width: 240px;
 	height: 196px;
 	object-fit: cover;
 }
 
+.Row1 h5,
 .Row2 h5 {
-	color: white;
-}
-
-.Row1{
-	display:flex;
-	justify-content: flex-start;
-	gap: 20px;
-	width: 70%;
-	margin-bottom: 30px;
-}
-
-.Row1 img {
-	width: 240px;
-	height: 196px;
-	object-fit: cover;
-}
-
-.Row1 h5 {
 	color: white;
 }
 
