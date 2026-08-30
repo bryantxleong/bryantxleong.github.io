@@ -21,6 +21,7 @@ h1, h2, h3, h4 {
 p {
     font-size: 14px;
 	text-align: justify;
+	color: white;
 }
 
 #TopIndicator{
@@ -81,10 +82,6 @@ p {
 
 #Home, #Portfolio, .GameDescription, .CodeShowing {
 	margin: 0px 50px;
-}
-
-#Home p {
-	color: white;
 }
 
 #wrapper {
