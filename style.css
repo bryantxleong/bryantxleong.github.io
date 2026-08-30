@@ -36,9 +36,13 @@ p {
 .Row2 {
 	display: flex;
 	justify-content: flex-start;
-	gap: 20px;
 	width: 70%;
 	margin-bottom: 30px;
+}
+
+.Row1 > div,
+.Row2 > div {
+	margin-left: 25px;
 }
 
 .Row1 img,
