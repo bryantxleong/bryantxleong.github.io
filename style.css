@@ -32,6 +32,23 @@ p {
 	margin: 0px 50px;
 }
 
+.Row2{
+	display:flex;
+	gap: 20px;
+	width: 70%;
+	margin-bottom: 30px;
+}
+
+.Row2 img {
+	width: 240px;
+	height: 196px;
+	object-fit: cover;
+}
+
+.Row2 h5 {
+	color: white;
+}
+
 .Row1{
 	display:flex;
 	justify-content: space-between;
