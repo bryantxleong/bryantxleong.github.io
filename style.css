@@ -64,6 +64,13 @@ p {
 	margin: 150px 50px;
 }
 
+.Issues h1,
+.Issues h2,
+.Issues h3,
+.Issues h4 {
+	margin-top: 0;
+}
+
 #footer {
 	background-color: #6082B6;
 	border-top-left-radius: 10px;
