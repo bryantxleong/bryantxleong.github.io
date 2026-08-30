@@ -44,6 +44,10 @@ p {
 	object-fit: cover;
 }
 
+.Row1 h5 {
+	color: white;
+}
+
 .GameIntro video{
 	width: 100%;
 	max-width: 800px;
