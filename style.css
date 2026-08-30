@@ -84,9 +84,16 @@ p {
 	overflow: hidden;
 }
 
+.SocialIcon {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: flex;
+	gap: 12px;
+}
+
 .SocialIcon a {
 	font-size: 24px;
-	margin-right: 12px;
 	text-decoration: none !important;
 	color: #AAA;
 	transition: color 0.3s;
