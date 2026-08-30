@@ -79,6 +79,10 @@ p {
 	margin: 0px 50px;
 }
 
+#Home p {
+	color: white;
+}
+
 #wrapper {
   min-height: 100vh;
   display: flex;
