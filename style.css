@@ -38,10 +38,10 @@ p {
 	width: 70%;
 }
 
-.Row1 img{
-	flex: 1;
-	max-width: 70%;
-	height: auto; 
+.Row1 img {
+	width: 600px;
+	height: 480px;
+	object-fit: cover;
 }
 
 .GameIntro video{
