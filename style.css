@@ -78,7 +78,13 @@ p {
 	overflow: hidden;
 }
 
-/* New Game Code Display */
+/* Game4 Code Display */
+.GameCodeList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
 .GameCode {
 	width: 200px;
 	height: 120px;
@@ -89,6 +95,7 @@ p {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	display: block;
 }
 
 .SocialIcon {
