@@ -106,6 +106,10 @@ p {
 	gap: 12px;
 }
 
+.GameIntro h2 {
+	text-align: center;
+}
+
 .Issues{
 	display:flex;
 	justify-content: space-between;
