@@ -32,6 +32,15 @@ p {
 	margin: 0px 50px;
 }
 
+#TopIndicator a,
+#TopIndicator a:visited {
+	color: #438CBF;
+}
+
+#TopIndicator a:hover {
+	color: #333;
+}
+
 .Row1,
 .Row2 {
 	display: flex;
