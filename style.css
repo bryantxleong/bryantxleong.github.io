@@ -16,6 +16,7 @@ body {
 #Home {
 	display: flex;
 	align-items: center;
+	margin: 50px 50px 50px 50px;
 }
 
 .HeroImage img {
@@ -182,7 +183,7 @@ p {
 	font-size: 12px;
 }
 
-#Home, #Portfolio, .GameDescription, .CodeShowing .GameCode {
+#Portfolio, .GameDescription, .CodeShowing .GameCode {
 	margin: 0px 50px;
 }
 
