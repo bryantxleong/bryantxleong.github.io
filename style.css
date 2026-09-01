@@ -13,6 +13,20 @@ body {
 	background-attachment: fixed;
 }
 
+#Home {
+	display: flex;
+	align-items: center;
+}
+
+.HeroImage img {
+	width: 220px;
+	height: auto;
+}
+
+.HeroText {
+	margin-left: 40px;
+}
+
 h1, h2, h3, h4 {
 	font-weight: bold;
     color: #438CBF;
