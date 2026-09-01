@@ -16,7 +16,7 @@ body {
 #Home {
 	display: flex;
 	align-items: center;
-	margin: 50px 50px 50px 80px;
+	margin: 50px 50px 50px 75px;
 }
 
 .HeroImage img {
