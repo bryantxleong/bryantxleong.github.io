@@ -82,6 +82,15 @@ p {
 	margin: 8px 0;
 }
 
+.GameDownload,
+.GameDownload:visited {
+	color: #438CBF;
+}
+
+.GameDownload:hover {
+	color: #333;
+}
+
 .gameCodeImg {
 	height: 550px;
 	overflow: hidden;
