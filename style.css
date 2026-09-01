@@ -20,7 +20,9 @@ body {
 
 .HeroImage img {
 	width: 220px;
-	height: auto;
+	height: 350px;
+	object-fit: cover;
+	object-position: center top;
 }
 
 .HeroText {
